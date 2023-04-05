@@ -1,0 +1,36 @@
+.picture-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .picture-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .vote-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .upvote-btn, .downvote-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .upvote-btn:hover, .downvote-btn:hover {
+    color: blue;
+  }
+  
+  .vote-count {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
